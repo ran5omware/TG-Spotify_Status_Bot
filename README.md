@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### 4. Get Spotify authorization data
 
-1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) and create a new application Redirect URIs you can make http://127.0.0.1:8888/callback.
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) and create a new application. Redirect URIs you can choose http://127.0.0.1:8888/callback.
 2. Get your **Client ID**, **Client Secret**, and set the **Redirect URI** for OAuth.
 3. Save these details in a `.env` file or replace the corresponding variables in the code:
    ```python
